@@ -39,8 +39,9 @@ torch 1.5.0
 numpy 1.18.4
 Matplotlib 3.2.1
 Pillow 7.1.2
+'''
 
-## Code references
+## References
 - DQN thesis (http://www.cs.rhul.ac.uk/~chrisw/thesis.html) and code (https://github.com/udacity/deep-reinforcement-learning)
 - DDPG paper (https://arxiv.org/abs/1509.02971) and code (https://github.com/udacity/deep-reinforcement-learning)
 - TD3 paper (https://arxiv.org/abs/1802.09477) and code (https://github.com/sfujim/TD3)
