@@ -31,7 +31,6 @@ The final success is due to those differences specifications between TD3 and DDP
 
 ## Dependencies
 Trained and tested on:
-'''
 Python 3.8
 gym 0.17.2
 box2d 2.3.10
@@ -39,7 +38,6 @@ torch 1.5.0
 numpy 1.18.4
 Matplotlib 3.2.1
 Pillow 7.1.2
-'''
 
 ## References
 - DQN thesis (http://www.cs.rhul.ac.uk/~chrisw/thesis.html) and code (https://github.com/udacity/deep-reinforcement-learning)
