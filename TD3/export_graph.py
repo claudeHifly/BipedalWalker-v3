@@ -61,7 +61,6 @@ for r in data_mean[2]:
 # plot
 fig = plt.figure()
 ax = fig.add_subplot(111)
-
 x = np.arange(1, len(scores) + 1)
 y = scores
 plt.plot(x, y)
@@ -95,6 +94,7 @@ ax = fig.add_subplot(111)
 x = np.arange(1, len(actor_losses) + 1)
 y = actor_losses
 plt.plot(x, y)
+
 plt.grid()
 plt.ylabel('Actor Loss')
 plt.xlabel('Episode #')
@@ -108,6 +108,7 @@ ax = fig.add_subplot(111)
 x = np.arange(1, len(critic1_losses) + 1)
 y = critic1_losses
 plt.plot(x, y)
+
 plt.grid()
 plt.ylabel('Critic1 Loss')
 plt.xlabel('Episode #')
@@ -121,6 +122,7 @@ ax = fig.add_subplot(111)
 x = np.arange(1, len(critic2_losses) + 1)
 y = critic2_losses
 plt.plot(x, y)
+
 plt.grid()
 plt.ylabel('Critic2 Loss')
 plt.xlabel('Episode #')

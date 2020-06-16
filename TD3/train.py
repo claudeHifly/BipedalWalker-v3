@@ -6,6 +6,7 @@ from TD3 import TD3
 from utils import ReplayBuffer
 from collections import deque
 import pickle
+import matplotlib.pyplot as plt
 
 
 ######### Hyperparameters #########

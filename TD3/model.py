@@ -6,9 +6,9 @@ class Actor(nn.Module):
     def __init__(self, state_dim, action_dim, max_action):
         super(Actor, self).__init__()
 
-        self.l1 = nn.Linear(state_dim, 480)
-        self.l2 = nn.Linear(480, 240)
-        self.l3 = nn.Linear(240, action_dim)
+        self.l1 = nn.Linear(state_dim, 400)
+        self.l2 = nn.Linear(400, 300)
+        self.l3 = nn.Linear(300, action_dim)
 
         self.max_action = max_action
 
@@ -23,9 +23,9 @@ class Critic(nn.Module):
     def __init__(self, state_dim, action_dim):
         super(Critic, self).__init__()
 
-        self.l1 = nn.Linear(state_dim + action_dim, 560)
-        self.l2 = nn.Linear(560, 280)
-        self.l3 = nn.Linear(280, 1)
+        self.l1 = nn.Linear(state_dim + action_dim, 400)
+        self.l2 = nn.Linear(400, 300)
+        self.l3 = nn.Linear(300, 1)
 
     def forward(self, state, action):
         state_action = torch.cat([state, action], 1)
