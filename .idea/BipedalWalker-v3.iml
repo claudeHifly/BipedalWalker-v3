@@ -6,6 +6,8 @@
       <sourceFolder url="file://$MODULE_DIR$/DQN" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/q_learning" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/DDPG" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/TD3-conf1" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/TD3-conf2" isTestSource="false" />
     </content>
     <orderEntry type="jdk" jdkName="Python 3.8" jdkType="Python SDK" />
     <orderEntry type="sourceFolder" forTests="false" />
