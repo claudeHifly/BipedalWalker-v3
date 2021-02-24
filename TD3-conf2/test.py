@@ -11,8 +11,8 @@ random_seed = 0
 n_episodes = 100
 lr = 0.002
 max_timesteps = 2000
-render = False
-save_gif = False
+render = True
+save_gif = True
 
 filename = "TD3_{}_{}".format(env_name, random_seed)
 filename += '_solved'
